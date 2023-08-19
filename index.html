@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- http://localhost:3000/?#         npm run dev -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>whatsapp chat app</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h3>👉👉 open 2 browers or tabs with same link to see the working</h3>
+    <nav>
+        <img src="/iconchat.png" alt="" class="icon">
+    </nav>
+    <div class="container">
+        <div class="message left"> 
+            <!-- incomeing -->
+            
+            </div>
+        <div class="message right"> <!-- outgoing -->
+            
+           </div>
+    </div>
+    <div class="sendmess">
+        <form action="#" id="send-container">
+        <input type="text" id="messageinp">
+        <!-- <button type="submit" id="btn">send</button> -->
+    </form>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>

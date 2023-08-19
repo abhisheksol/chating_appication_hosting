@@ -1,0 +1,59 @@
+.icon{
+    background-color: aquamarine;
+    display: block;
+    margin: auto;
+    width: 34px;
+    height: 44px;
+}
+body{
+    background-color: aquamarine;
+}
+.container{
+    max-width: 585px;
+    display: block;
+    margin: auto;
+    background-color: rgb(78, 126, 110);
+    height: 60vh;
+    overflow-y: auto;
+}
+.message {
+    margin: 5px;
+    padding: 5px;
+    
+    border: solid rebeccapurple;
+    border-radius: 10px;
+}
+
+
+.left{
+    background-color: rgb(141, 226, 43);
+    float: left;
+    margin: 5px;
+    clear: both;
+}
+.right{
+    background-color: rgb(54, 114, 10);
+    float: right;
+    margin: 5px;
+    clear: both;
+}
+/* send message----------------- */
+.sendmess{
+    margin: auto;
+    display: block;
+    text-align: center;
+    max-width: 985px;
+}
+#messageinp {
+    
+    width: 54%;
+    margin: 5px;
+    border: solid rgb(141, 226, 43);
+    border-radius: 10px;
+}
+#btn{
+    cursor: pointer;
+    border: solid rgb(14, 128, 9);
+    border-radius: 10px;
+}
+
